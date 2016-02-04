@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11F1B048952B0BA104191E0D /* libPods-MagicalRecord.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C6DDA8A75CD6188FCD2348A /* libPods-MagicalRecord.a */; };
 		FF5FCCC31C62DCD0006F3A6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5FCCC21C62DCD0006F3A6A /* AppDelegate.swift */; };
 		FF5FCCC51C62DCD0006F3A6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5FCCC41C62DCD0006F3A6A /* ViewController.swift */; };
 		FF5FCCC81C62DCD0006F3A6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF5FCCC61C62DCD0006F3A6A /* Main.storyboard */; };
 		FF5FCCCB1C62DCD0006F3A6A /* MagicalRecord.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF5FCCC91C62DCD0006F3A6A /* MagicalRecord.xcdatamodeld */; };
 		FF5FCCCD1C62DCD0006F3A6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF5FCCCC1C62DCD0006F3A6A /* Assets.xcassets */; };
 		FF5FCCD01C62DCD0006F3A6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF5FCCCE1C62DCD0006F3A6A /* LaunchScreen.storyboard */; };
+		FFDCA2C81C62E87F00A50A2B /* VideoEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDCA2C61C62E87F00A50A2B /* VideoEntity+CoreDataProperties.swift */; };
+		FFDCA2C91C62E87F00A50A2B /* VideoEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDCA2C71C62E87F00A50A2B /* VideoEntity.swift */; };
+		FFDCA2CB1C62E8C500A50A2B /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDCA2CA1C62E8C500A50A2B /* Video.swift */; };
+		FFDCA2CF1C63063E00A50A2B /* AppSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDCA2CE1C63063E00A50A2B /* AppSetting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C6DDA8A75CD6188FCD2348A /* libPods-MagicalRecord.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MagicalRecord.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD1C9DD060D0A2E294591E5 /* Pods-MagicalRecord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicalRecord.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagicalRecord/Pods-MagicalRecord.release.xcconfig"; sourceTree = "<group>"; };
+		8E0185924BD4E6E69CDB9DF6 /* Pods-MagicalRecord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicalRecord.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MagicalRecord/Pods-MagicalRecord.debug.xcconfig"; sourceTree = "<group>"; };
 		FF5FCCBF1C62DCD0006F3A6A /* MagicalRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicalRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF5FCCC21C62DCD0006F3A6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF5FCCC41C62DCD0006F3A6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +32,11 @@
 		FF5FCCCC1C62DCD0006F3A6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF5FCCCF1C62DCD0006F3A6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF5FCCD11C62DCD0006F3A6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFDCA2C51C62E4AE00A50A2B /* MagicalRecord-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord-Bridging-Header.h"; sourceTree = "<group>"; };
+		FFDCA2C61C62E87F00A50A2B /* VideoEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VideoEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FFDCA2C71C62E87F00A50A2B /* VideoEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoEntity.swift; sourceTree = "<group>"; };
+		FFDCA2CA1C62E8C500A50A2B /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		FFDCA2CE1C63063E00A50A2B /* AppSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppSetting.swift; path = ../../MTLib/AppSetting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +44,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11F1B048952B0BA104191E0D /* libPods-MagicalRecord.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F63224BA45B32C10A022BEB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E0185924BD4E6E69CDB9DF6 /* Pods-MagicalRecord.debug.xcconfig */,
+				8CD1C9DD060D0A2E294591E5 /* Pods-MagicalRecord.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		76417FE6321FD5416321371F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C6DDA8A75CD6188FCD2348A /* libPods-MagicalRecord.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FF5FCCB61C62DCD0006F3A6A = {
 			isa = PBXGroup;
 			children = (
 				FF5FCCC11C62DCD0006F3A6A /* MagicalRecord */,
 				FF5FCCC01C62DCD0006F3A6A /* Products */,
+				2F63224BA45B32C10A022BEB /* Pods */,
+				76417FE6321FD5416321371F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,7 +91,12 @@
 			children = (
 				FF5FCCC21C62DCD0006F3A6A /* AppDelegate.swift */,
 				FF5FCCC41C62DCD0006F3A6A /* ViewController.swift */,
+				FFDCA2C61C62E87F00A50A2B /* VideoEntity+CoreDataProperties.swift */,
+				FFDCA2C71C62E87F00A50A2B /* VideoEntity.swift */,
+				FFDCA2CA1C62E8C500A50A2B /* Video.swift */,
+				FFDCA2CE1C63063E00A50A2B /* AppSetting.swift */,
 				FF5FCCC61C62DCD0006F3A6A /* Main.storyboard */,
+				FFDCA2C51C62E4AE00A50A2B /* MagicalRecord-Bridging-Header.h */,
 				FF5FCCCC1C62DCD0006F3A6A /* Assets.xcassets */,
 				FF5FCCCE1C62DCD0006F3A6A /* LaunchScreen.storyboard */,
 				FF5FCCD11C62DCD0006F3A6A /* Info.plist */,
@@ -74,9 +112,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF5FCCD41C62DCD0006F3A6A /* Build configuration list for PBXNativeTarget "MagicalRecord" */;
 			buildPhases = (
+				13D3C56F72FF31CAA6A26747 /* Check Pods Manifest.lock */,
 				FF5FCCBB1C62DCD0006F3A6A /* Sources */,
 				FF5FCCBC1C62DCD0006F3A6A /* Frameworks */,
 				FF5FCCBD1C62DCD0006F3A6A /* Resources */,
+				8D31E273C19A9C49A485DA96 /* Embed Pods Frameworks */,
+				E77DE0DF9785E43187E96F9F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,14 +174,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13D3C56F72FF31CAA6A26747 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8D31E273C19A9C49A485DA96 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagicalRecord/Pods-MagicalRecord-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E77DE0DF9785E43187E96F9F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagicalRecord/Pods-MagicalRecord-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FF5FCCBB1C62DCD0006F3A6A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FF5FCCC51C62DCD0006F3A6A /* ViewController.swift in Sources */,
+				FFDCA2CB1C62E8C500A50A2B /* Video.swift in Sources */,
+				FFDCA2CF1C63063E00A50A2B /* AppSetting.swift in Sources */,
 				FF5FCCC31C62DCD0006F3A6A /* AppDelegate.swift in Sources */,
+				FFDCA2C81C62E87F00A50A2B /* VideoEntity+CoreDataProperties.swift in Sources */,
 				FF5FCCCB1C62DCD0006F3A6A /* MagicalRecord.xcdatamodeld in Sources */,
+				FFDCA2C91C62E87F00A50A2B /* VideoEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,23 +342,33 @@
 		};
 		FF5FCCD51C62DCD0006F3A6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E0185924BD4E6E69CDB9DF6 /* Pods-MagicalRecord.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = MagicalRecord/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = truongThang.MagicalRecord;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MagicalRecord/MagicalRecord-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		FF5FCCD61C62DCD0006F3A6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CD1C9DD060D0A2E294591E5 /* Pods-MagicalRecord.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = MagicalRecord/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = truongThang.MagicalRecord;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MagicalRecord/MagicalRecord-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -288,6 +391,7 @@
 				FF5FCCD61C62DCD0006F3A6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
